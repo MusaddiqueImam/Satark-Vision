@@ -1,0 +1,161 @@
+{
+    "callers": {
+        "caller1": {
+            "callerName": "musaddique imam",
+            "phoneNo": "1234567890",
+            "isSpam": true
+        },
+        "caller2": {
+            "callerName": "sheshank gupta",
+            "phoneNo": "9876543210",
+            "isSpam": false
+        },
+        "caller3": {
+            "callerName": "caller3",
+            "phoneNo": "9836343913",
+            "isSpam": true
+        },
+        "caller4": {
+            "callerName": "caller4",
+            "phoneNo": "9846443914",
+            "isSpam": false
+        },
+        "caller5": {
+            "callerName": "caller5",
+            "phoneNo": "9856543915",
+            "isSpam": false
+        },
+        "caller6": {
+            "callerName": "caller6",
+            "phoneNo": "9866643916",
+            "isSpam": false
+        },
+        "caller7": {
+            "callerName": "caller7",
+            "phoneNo": "9876743917",
+            "isSpam": true
+        },
+        "caller8": {
+            "callerName": "caller8",
+            "phoneNo": "9886843918",
+            "isSpam": false
+        },
+        "caller9": {
+            "callerName": "caller9",
+            "phoneNo": "9896943919",
+            "isSpam": false
+        },
+        "caller10": {
+            "callerName": "caller10",
+            "phoneNo": "9870503290",
+            "isSpam": false
+        }
+    },
+    "companies": {
+        "company1": {
+            "companyName": "company1",
+            "companyID": "cpny24001",
+            "type": "MNC",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company2": {
+            "companyName": "company2",
+            "companyID": "cpny24002",
+            "type": "GVT",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company3": {
+            "companyName": "company3",
+            "companyID": "cpny24003",
+            "type": "MNC",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company4": {
+            "companyName": "company4",
+            "companyID": "cpny24004",
+            "type": "GVT",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company5": {
+            "companyName": "company5",
+            "companyID": "cpny24005",
+            "type": "PVT",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company6": {
+            "companyName": "company6",
+            "companyID": "cpny24006",
+            "type": "PVT",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company7": {
+            "companyName": "company7",
+            "companyID": "cpny24007",
+            "type": "MNC",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company8": {
+            "companyName": "company8",
+            "companyID": "cpny24008",
+            "type": "GVT",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company9": {
+            "companyName": "company9",
+            "companyID": "cpny24009",
+            "type": "PVT",
+            "isVerified": true,
+            "rating": 5
+        },
+        "company10": {
+            "companyName": "company10",
+            "companyID": "cpny240010",
+            "type": "NONE",
+            "isVerified": false,
+            "rating": 0
+        },
+        "company11": {
+            "companyName": "company11",
+            "companyID": "cpny240011",
+            "type": "NONE",
+            "isVerified": false,
+            "rating": 0
+        },
+        "company12": {
+            "companyName": "company12",
+            "companyID": "cpny240012",
+            "type": "NONE",
+            "isVerified": false,
+            "rating": 0
+        },
+        "company13": {
+            "companyName": "company13",
+            "companyID": "cpny240013",
+            "type": "NONE",
+            "isVerified": false,
+            "rating": 0
+        },
+        "company14": {
+            "companyName": "company14",
+            "companyID": "cpny240014",
+            "type": "NONE",
+            "isVerified": false,
+            "rating": 0
+        }
+    },
+    "users": {
+        "user1": {
+            "userID": "admin@satarkvision.com",
+            "password": "musaddique786",
+            "role": "administrator"
+        }
+    }
+}

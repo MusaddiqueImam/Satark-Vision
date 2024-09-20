@@ -1,0 +1,92 @@
+{% include "header.html" %}
+<section class="text-gray-600 body-font bg-blue-200">
+  <div class="container px-5 py-5 mx-auto" style="min-height: 80vh;">
+    <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900" style="font-family:cursive">
+        WELCOME TO SATARK VISION
+      </h1>
+      <p class="lg:w-1/2 w-full leading-relaxed text-gray-500" style="font-family:italian">
+        A Website that detects the online fraud...<br>
+        Build your Digital Trust..
+      </p>
+    </div>
+    <form action="/spam-call" method="post">
+      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:mx-auto w-full mt-10 md:mt-0">
+        <h2 class="text-gray-900 text-lg font-medium title-font mb-5 text-center">Enter Caller ID</h2>
+        <div class="relative mb-4">
+          <input type="text" id="phoneNo" name="phoneNo" placeholder="Caller ID" value="{{ phoneNo }}"
+            class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        </div>
+        {% if status %}
+        <div id="caller-status" class="text-center my-3 {{ status_color }}">
+          {{ status }}
+        </div>
+        {% endif %}
+        {% if caller_data %}
+        {% for caller_id, caller_info in caller_data.items() %}
+        <div class="w-full max-w-md p-4 border border-gray-200 rounded-lg shadow sm:p-8 mb-4
+                {% if caller_info['isSpam'] %}
+                 bg-red-800
+                {% else %}
+                bg-green-800
+                {% endif %}">
+          <div class="flex items-center justify-between mb-4">
+            <h5 class="text-xl font-bold leading-none capitalize
+                    {% if caller_info['isSpam'] %}
+                    text-red-100
+                    {% else %}
+                    text-green-100
+                    {% endif %}">
+              {{ caller_info['callerName'] }}
+            </h5>
+            <p class="text-white">
+              {% if caller_info['isSpam'] %}
+                Reported Spam
+              {% else %}
+                Verified
+              {% endif %}
+            </p>
+          </div>
+          <div class="flow-root">
+            <ul role="list" class="divide-y
+                    {% if caller_info['isSpam'] %}
+                    divide-red-700
+                    {% else %}
+                    divide-green-700
+                    {% endif %}">
+              <li class="py-3 sm:py-4">
+                <div class="flex items-center space-x-4">
+                  <div class="flex-1 min-w-0">
+                    <p class="text-sm font-medium
+                            {% if caller_info['isSpam'] %}
+                            text-red-100
+                            {% else %}
+                            text-green-100
+                            {% endif %}
+                            truncate">
+                      Phone Number
+                    </p>
+                  </div>
+                  <div class="inline-flex items-center text-base font-semibold
+                            {% if caller_info['isSpam'] %}
+                             text-red-100
+                            {% else %}
+                            text-green-100
+                            {% endif %}">
+                    {{ caller_info['phoneNo'] }}
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        {% endfor %}
+        {% endif %}
+        <button type="submit"
+          class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Verify</button>
+      </div>
+    </form>
+  </div>
+  </div>
+</section>
+{% include "footer.html" %}

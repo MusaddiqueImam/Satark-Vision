@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SATARK VISION</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header class=" border border-gray-200 text-gray-600 body-font bg-blue-400">
+    <div class="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
+        <img src="{{url_for('static', filename='logo.png')}}" alt="" style="height: 80px;">
+        <span class="ml-3 text-xl" style="font-family:cursive">SATARK VISION</span>
+      </a>
+      <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="/dashboard">Dashboard</a>
+        <a class="mr-5 hover:text-gray-900" href="/callerids">Caller IDs</a>
+        <a class="mr-5 hover:text-gray-900" href="/companies">Comapnies</a>
+        <a class="mr-5 hover:text-gray-900" href="/logout">Logout</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-gray-600 body-font bg-blue-200">
+    <div class="container px-5 py-5 mx-auto" style="min-height: 80vh;">
+      <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900" style="font-family:cursive">
+          WELCOME TO SATARK VISION
+        </h1>
+        <p class="lg:w-1/2 w-full leading-relaxed text-gray-500" style="font-family:italian">
+          A Website that detects the online fraud...<br>
+          Build your Digital Trust..
+        </p>
+      </div>
+      <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:mx-auto w-full mt-10 md:mt-0">
+        <h2 class="text-gray-900 text-lg font-medium title-font mb-5 text-center">Edit Company Details</h2>
+        <form action="/edit-company/{{company_id}}" method="post">
+          <div class="relative mb-4">
+            <input type="text" id="companyName" name="companyName" placeholder="Company Name"
+              value="{{company['companyName']}}"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <input type="text" id="companyID" name="companyID" placeholder="Company ID" value="{{company['companyID']}}"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+          </div>
+          <div class="relative mb-4">
+            <select id="companyType" name="companyType"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <option>--Select Type--</option>
+              <option value="MNC" {% if company['type'] == 'MNC' %} selected {% endif %}>MNC</option>
+              <option value="GVT" {% if company['type'] == 'GVT' %} selected {% endif %}>GVT</option>
+              <option value="PVT" {% if company['type'] == 'PVT' %} selected {% endif %}>PVT</option>
+              <option value="NONE" {% if company['type'] == 'NONE' %} selected {% endif %}>NONE</option>
+            </select>
+          </div>
+          {% set rating = company['rating'] %}
+          {% if rating is string %}
+          {% set rating = rating|default(-1)|int %}
+          {% endif %}
+          <div class="relative mb-4">
+            <select id="rating" name="rating"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              <option>--Select Rating--</option>
+              <option value="0" {% if rating==0 %}selected{% endif %}>N/A</option>
+              <option value="1" {% if rating==1 %}selected{% endif %}>1</option>
+              <option value="2" {% if rating==2 %}selected{% endif %}>2</option>
+              <option value="3" {% if rating==3 %}selected{% endif %}>3</option>
+              <option value="4" {% if rating==4 %}selected{% endif %}>4</option>
+              <option value="5" {% if rating==5 %}selected{% endif %}>5</option>
+            </select>
+          </div>
+          <button type="submit"
+            class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Save
+            Changes</button>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="text-gray-600 body-font bg-blue-400">
+    <div class="container px-1 py-2 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="{{url_for('static', filename='logo.png')}}" alt="" style="height: 80px;">
+        <span class="ml-3 text-xl" style="font-family:cursive;">SATARK VISION</span>
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023
+        SATARK VISION —
+        <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer"
+          target="_blank">@SV2023</a>
+      </p>
+      <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+        <a class="text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+            viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+          </svg>
+        </a>
+        <a class="ml-3 text-gray-500">
+          <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0"
+            class="w-5 h-5" viewBox="0 0 24 24">
+            <path stroke="none"
+              d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+          </svg>
+        </a>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>

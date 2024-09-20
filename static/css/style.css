@@ -1,0 +1,113 @@
+/* *{
+  overflow-x: hidden;
+} */
+
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 100vw;
+    pointer-events: none;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: backgroundColorAnimation 1s linear forwards;
+    transition: opacity 1s ease-in;
+}
+
+.loader img {
+  animation: colorizeAnimation 1s linear forwards;
+}
+
+@keyframes backgroundColorAnimation {
+  from {
+    background: #027ccd;
+  }
+  to {
+    background: #ddd;
+  }
+}
+
+@keyframes colorizeAnimation {
+  from {
+      filter: grayscale(100%); /* Start as grayscale */
+  }
+  to {
+      filter: grayscale(0%); /* Transition to full color at the end of the animation */
+  }
+}
+
+/* SnackBar container */
+#snackbar {
+    visibility: hidden; /* Hidden by default */
+    min-width: 250px; /* Set a minimum width */
+    margin-left: -125px; /* Negative half of the width */
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center; /* Text alignment */
+    border-radius: 2px; /* Rounded corners */
+    padding: 16px; /* Padding */
+    position: fixed; /* Fixed position at the bottom of the screen */
+    z-index: 1; /* Front and center */
+    left: 50%; /* 50% from the left */
+    bottom: 30px; /* 30px from the bottom */
+    font-size: 16px; /* Font size */
+  }
+  
+  /* Show the snackbar when it is visible */
+  #snackbar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s; /* Show for 2.5 seconds */
+  }
+  
+  /* Fade in and out animations */
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0074cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .spam {
+    color: red;
+  }
+  
+  .not-spam {
+    color: green;
+  }

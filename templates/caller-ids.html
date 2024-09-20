@@ -1,0 +1,33 @@
+{% include "adminheader.html" %}
+    <section class="text-gray-600 body-font bg-blue-200">
+        <div class="container px-5 py-5 mx-auto" style="min-height: 80vh;">
+            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900" style="font-family:cursive">
+                    Caller IDs
+                </h1>
+                <table>
+                    <tr>
+                        <th>Caller Name</th>
+                        <th>Phone Number</th>
+                        <th>Spam</th>
+                        <th>Actions</th>
+                    </tr>
+                    {% for caller_id, caller in data.items() %}
+                        <tr>
+                            <td>{{ caller['callerName'] }}</td>
+                            <td>{{ caller['phoneNo'] }}</td>
+                            <td class="{% if caller['isSpam'] %}spam{% else %}not-spam{% endif %}">
+                                <a href="/toggle-spam/{{ caller_id }}" onclick="showSnackbar(`Verification status updated for {{ caller['callerName'] }}`)">
+                                {% if caller['isSpam'] %}Spam{% else %}Not Spam{% endif %}
+                            </a></td>
+                            <td>
+                                <a href="/edit-caller/{{ caller_id }}">Edit</a>
+                                <a href="#" onclick="confirmCallerDelete(`{{ caller['callerName'] }}`, `{{ caller_id }}`)">Delete</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+    </section>
+{% include "adminfooter.html" %}

@@ -1,0 +1,87 @@
+{% include "adminheader.html" %}
+    <section class="text-gray-600 body-font bg-blue-200">
+        <div class="container px-5 py-5 mx-auto" style="min-height: 80vh;">
+            <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font mb-1 text-gray-900" style="font-family:cursive">
+                    Admin dashboard
+                </h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:mx-auto w-full mt-10 md:mt-0">
+                    <h2 class="text-gray-900 text-lg font-medium title-font mb-5 text-center">Add Caller ID</h2>
+                    <form action="/saveCaller" method="post">
+                        <div class="relative mb-4">
+                            <input type="text" id="callerName" name="callerName" placeholder="Caller Name"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <div class="relative mb-4">
+                            <input type="text" id="phoneNo" name="phoneNo" placeholder="Phone Number"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        {% if not callerData %}
+                        <div class="text-red-500">
+                            {{ callerMsg }}
+                        </div>
+                        {% else %}
+                        <div class="text-green-500">
+                            {{ callerMsg }}
+                        </div>
+                        {% endif %}
+
+                        <button type="submit"
+                            class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register</button>
+                    </form>
+                </div>
+
+
+                <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:mx-auto w-full mt-10 md:mt-0">
+                    <h2 class="text-gray-900 text-lg font-medium title-font mb-5 text-center">Add Company</h2>
+                    <form action="/saveCmpny" method="post">
+                        <div class="relative mb-4">
+                            <input type="text" id="companyName" name="companyName" placeholder="Company Name"
+                                class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <div class="relative mb-4 flex">
+                            <input type="text" id="disabledInput" name="disabledInput" placeholder="Company ID"
+                                class="w-1/4 bg-white rounded border border-gray-300 text-base text-gray-700 py-1 px-3 leading-8"
+                                disabled value="cpny2400">
+                            <input type="text" id="companyID" name="companyID" placeholder="Company ID"
+                                class="w-3/4 bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                        </div>
+                        <div class="relative mb-4">
+                            <select id="companyType" name="companyType" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                <option>--Select Type--</option>
+                                <option value="MNC">MNC</option>
+                                <option value="GVT">GVT</option>
+                                <option value="PVT">PVT</option>
+                                <option value="NONE">NONE</option>
+                            </select>
+                        </div>
+                        <div class="relative mb-4">
+                            <select id="rating" name="rating" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                                <option>--Select Rating--</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>                            
+                        </div>
+                        {% if not companyData %}
+                        <div class="text-red-500">
+                            {{ companyMsg }}
+                        </div>
+                        {% else %}
+                        <div class="text-green-500">
+                            {{ companyMsg }}
+                        </div>
+                        {% endif %}
+
+                        <button type="submit"
+                            class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+{% include "adminfooter.html" %}

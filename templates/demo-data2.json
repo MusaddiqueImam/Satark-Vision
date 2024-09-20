@@ -1,0 +1,1194 @@
+{
+  "companies": {
+    "company1": {
+      "companyName": "Tata Consultancy Services (TCS)",
+      "companyID": "cpny24001",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company2": {
+      "companyName": "Infosys",
+      "companyID": "cpny24002",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company3": {
+      "companyName": "Reliance Industries",
+      "companyID": "cpny24003",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company4": {
+      "companyName": "Wipro",
+      "companyID": "cpny24004",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company5": {
+      "companyName": "HCL Technologies",
+      "companyID": "cpny24005",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company6": {
+      "companyName": "Tech Mahindra",
+      "companyID": "cpny24006",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company7": {
+      "companyName": "Adani Group",
+      "companyID": "cpny24007",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company8": {
+      "companyName": "Bharti Airtel",
+      "companyID": "cpny24008",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company9": {
+      "companyName": "Aditya Birla Group",
+      "companyID": "cpny24009",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company10": {
+      "companyName": "Essar Group",
+      "companyID": "cpny24010",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company11": {
+      "companyName": "Indian Oil Corporation (IOC)",
+      "companyID": "cpny24011",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company12": {
+      "companyName": "Microsoft",
+      "companyID": "cpny24012",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company13": {
+      "companyName": "Apple",
+      "companyID": "cpny24013",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company14": {
+      "companyName": "Amazon",
+      "companyID": "cpny24014",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company15": {
+      "companyName": "Google",
+      "companyID": "cpny24015",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company16": {
+      "companyName": "Facebook",
+      "companyID": "cpny24016",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company17": {
+      "companyName": "Samsung",
+      "companyID": "cpny24017",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company18": {
+      "companyName": "IBM",
+      "companyID": "cpny24018",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company19": {
+      "companyName": "Oracle",
+      "companyID": "cpny24019",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company20": {
+      "companyName": "General Electric (GE)",
+      "companyID": "cpny24020",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company21": {
+      "companyName": "Procter & Gamble (P&G)",
+      "companyID": "cpny24021",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company22": {
+      "companyName": "Coca-Cola",
+      "companyID": "cpny24022",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company23": {
+      "companyName": "Nestle",
+      "companyID": "cpny24023",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company24": {
+      "companyName": "Sony",
+      "companyID": "cpny24024",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company25": {
+      "companyName": "PepsiCo",
+      "companyID": "cpny24025",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company26": {
+      "companyName": "Nokia",
+      "companyID": "cpny24026",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company27": {
+      "companyName": "Cisco",
+      "companyID": "cpny24027",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company28": {
+      "companyName": "McDonald's",
+      "companyID": "cpny24028",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company29": {
+      "companyName": "Bosch",
+      "companyID": "cpny24029",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company30": {
+      "companyName": "Siemens",
+      "companyID": "cpny24030",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company31": {
+      "companyName": "Mitsubishi",
+      "companyID": "cpny24031",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company32": {
+      "companyName": "Caterpillar",
+      "companyID": "cpny24032",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company33": {
+      "companyName": "Bayer",
+      "companyID": "cpny24033",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company34": {
+      "companyName": "Unilever",
+      "companyID": "cpny24034",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company35": {
+      "companyName": "GSK",
+      "companyID": "cpny24035",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company36": {
+      "companyName": "AstraZeneca",
+      "companyID": "cpny24036",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company37": {
+      "companyName": "Sony Ericsson",
+      "companyID": "cpny24037",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company38": {
+      "companyName": "Canon",
+      "companyID": "cpny24038",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company39": {
+      "companyName": "Novartis",
+      "companyID": "cpny24039",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company40": {
+      "companyName": "Nissan",
+      "companyID": "cpny24040",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company41": {
+      "companyName": "Colgate-Palmolive",
+      "companyID": "cpny24041",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company42": {
+      "companyName": "LG Electronics",
+      "companyID": "cpny24042",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company43": {
+      "companyName": "Adobe",
+      "companyID": "cpny24043",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company44": {
+      "companyName": "Epson",
+      "companyID": "cpny24044",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company45": {
+      "companyName": "Lenovo",
+      "companyID": "cpny24045",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company46": {
+      "companyName": "Panasonic",
+      "companyID": "cpny24046",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company47": {
+      "companyName": "KPMG",
+      "companyID": "cpny24047",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company48": {
+      "companyName": "Deloitte",
+      "companyID": "cpny24048",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company49": {
+      "companyName": "PwC",
+      "companyID": "cpny24049",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company50": {
+      "companyName": "Ernst & Young (EY)",
+      "companyID": "cpny24050",
+      "type": "MNC",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company51": {
+      "companyName": "Indian Railways",
+      "companyID": "cpny24051",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company52": {
+      "companyName": "Life Insurance Corporation of India (LIC)",
+      "companyID": "cpny24052",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company53": {
+      "companyName": "Bharat Heavy Electricals Limited (BHEL)",
+      "companyID": "cpny24053",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company54": {
+      "companyName": "Delhi Metro Rail Corporation (DMRC)",
+      "companyID": "cpny24054",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company55": {
+      "companyName": "Indian Space Research Organization (ISRO)",
+      "companyID": "cpny24055",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company56": {
+      "companyName": "National Highways Authority of India (NHAI)",
+      "companyID": "cpny24056",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company57": {
+      "companyName": "Reserve Bank of India (RBI)",
+      "companyID": "cpny24057",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company58": {
+      "companyName": "Indian Army",
+      "companyID": "cpny24058",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company59": {
+      "companyName": "Indian Navy",
+      "companyID": "cpny24059",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company60": {
+      "companyName": "Indian Air Force",
+      "companyID": "cpny24060",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company61": {
+      "companyName": "Indian Parliament",
+      "companyID": "cpny24061",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company62": {
+      "companyName": "Central Bureau of Investigation (CBI)",
+      "companyID": "cpny24062",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company63": {
+      "companyName": "Indian Police Service (IPS)",
+      "companyID": "cpny24063",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company64": {
+      "companyName": "Supreme Court of India",
+      "companyID": "cpny24064",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company65": {
+      "companyName": "High Court of Delhi",
+      "companyID": "cpny24065",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company66": {
+      "companyName": "Union Public Service Commission (UPSC)",
+      "companyID": "cpny24066",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company67": {
+      "companyName": "Indian Postal Service",
+      "companyID": "cpny24067",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company68": {
+      "companyName": "Ministry of External Affairs",
+      "companyID": "cpny24068",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company69": {
+      "companyName": "National Security Guard (NSG)",
+      "companyID": "cpny24069",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company70": {
+      "companyName": "Indian Railways",
+      "companyID": "cpny24070",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company71": {
+      "companyName": "Life Insurance Corporation of India (LIC)",
+      "companyID": "cpny24071",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company72": {
+      "companyName": "Bharat Heavy Electricals Limited (BHEL)",
+      "companyID": "cpny24072",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company73": {
+      "companyName": "Delhi Metro Rail Corporation (DMRC)",
+      "companyID": "cpny24073",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company74": {
+      "companyName": "Indian Space Research Organization (ISRO)",
+      "companyID": "cpny24074",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company75": {
+      "companyName": "National Highways Authority of India (NHAI)",
+      "companyID": "cpny24075",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company76": {
+      "companyName": "Reserve Bank of India (RBI)",
+      "companyID": "cpny24076",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company77": {
+      "companyName": "Indian Army",
+      "companyID": "cpny24077",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company78": {
+      "companyName": "Indian Navy",
+      "companyID": "cpny24078",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company79": {
+      "companyName": "Indian Air Force",
+      "companyID": "cpny24079",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company80": {
+      "companyName": "Indian Parliament",
+      "companyID": "cpny24080",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company81": {
+      "companyName": "Central Bureau of Investigation (CBI)",
+      "companyID": "cpny24081",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company82": {
+      "companyName": "Indian Police Service (IPS)",
+      "companyID": "cpny24082",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company83": {
+      "companyName": "Supreme Court of India",
+      "companyID": "cpny24083",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company84": {
+      "companyName": "High Court of Delhi",
+      "companyID": "cpny24084",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company85": {
+      "companyName": "Union Public Service Commission (UPSC)",
+      "companyID": "cpny24085",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company86": {
+      "companyName": "Indian Postal Service",
+      "companyID": "cpny24086",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company87": {
+      "companyName": "Ministry of External Affairs",
+      "companyID": "cpny24087",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company88": {
+      "companyName": "National Security Guard (NSG)",
+      "companyID": "cpny24088",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company89": {
+      "companyName": "Indian Railways",
+      "companyID": "cpny24089",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company90": {
+      "companyName": "Life Insurance Corporation of India (LIC)",
+      "companyID": "cpny24090",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company91": {
+      "companyName": "Bharat Heavy Electricals Limited (BHEL)",
+      "companyID": "cpny24091",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company92": {
+      "companyName": "Delhi Metro Rail Corporation (DMRC)",
+      "companyID": "cpny24092",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company93": {
+      "companyName": "Indian Space Research Organization (ISRO)",
+      "companyID": "cpny24093",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company94": {
+      "companyName": "National Highways Authority of India (NHAI)",
+      "companyID": "cpny24094",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company95": {
+      "companyName": "Reserve Bank of India (RBI)",
+      "companyID": "cpny24095",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company96": {
+      "companyName": "Indian Army",
+      "companyID": "cpny24096",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company97": {
+      "companyName": "Indian Navy",
+      "companyID": "cpny24097",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company98": {
+      "companyName": "Indian Air Force",
+      "companyID": "cpny24098",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company99": {
+      "companyName": "Indian Parliament",
+      "companyID": "cpny24099",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company100": {
+      "companyName": "Central Bureau of Investigation (CBI)",
+      "companyID": "cpny24100",
+      "type": "GVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company101": {
+      "companyName": "Sunrise Technologies",
+      "companyID": "cpny24101",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company102": {
+      "companyName": "Innovate Solutions",
+      "companyID": "cpny24102",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company103": {
+      "companyName": "Vertex Industries",
+      "companyID": "cpny24103",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company104": {
+      "companyName": "TechNex Corporation",
+      "companyID": "cpny24104",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company105": {
+      "companyName": "DataWave Innovations",
+      "companyID": "cpny24105",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company106": {
+      "companyName": "AlphaTech Solutions",
+      "companyID": "cpny24106",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company107": {
+      "companyName": "MaxLink Systems",
+      "companyID": "cpny24107",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company108": {
+      "companyName": "Globex Innovations",
+      "companyID": "cpny24108",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company109": {
+      "companyName": "Digital Horizon Solutions",
+      "companyID": "cpny24109",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company110": {
+      "companyName": "ProTech Innovators",
+      "companyID": "cpny24110",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company111": {
+      "companyName": "NexaSoft Enterprises",
+      "companyID": "cpny24111",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company112": {
+      "companyName": "SwiftWave Technologies",
+      "companyID": "cpny24112",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company113": {
+      "companyName": "WebBurst Solutions",
+      "companyID": "cpny24113",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company114": {
+      "companyName": "FutureLink Innovations",
+      "companyID": "cpny24114",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company115": {
+      "companyName": "TechRise Corporation",
+      "companyID": "cpny24115",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company116": {
+      "companyName": "InnoWave Solutions",
+      "companyID": "cpny24116",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company117": {
+      "companyName": "PulseTech Innovations",
+      "companyID": "cpny24117",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company118": {
+      "companyName": "VistaTech Enterprises",
+      "companyID": "cpny24118",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company119": {
+      "companyName": "QuantumWave Solutions",
+      "companyID": "cpny24119",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company120": {
+      "companyName": "OmniTech Innovations",
+      "companyID": "cpny24120",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company121": {
+      "companyName": "NexaSoft Enterprises",
+      "companyID": "cpny24121",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company122": {
+      "companyName": "SwiftWave Technologies",
+      "companyID": "cpny24122",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company123": {
+      "companyName": "WebBurst Solutions",
+      "companyID": "cpny24123",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company124": {
+      "companyName": "FutureLink Innovations",
+      "companyID": "cpny24124",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company125": {
+      "companyName": "TechRise Corporation",
+      "companyID": "cpny24125",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company126": {
+      "companyName": "InnoWave Solutions",
+      "companyID": "cpny24126",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company127": {
+      "companyName": "PulseTech Innovations",
+      "companyID": "cpny24127",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company128": {
+      "companyName": "VistaTech Enterprises",
+      "companyID": "cpny24128",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company129": {
+      "companyName": "QuantumWave Solutions",
+      "companyID": "cpny24129",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company130": {
+      "companyName": "OmniTech Innovations",
+      "companyID": "cpny24130",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company131": {
+      "companyName": "Sunrise Technologies",
+      "companyID": "cpny24131",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company132": {
+      "companyName": "Innovate Solutions",
+      "companyID": "cpny24132",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company133": {
+      "companyName": "Vertex Industries",
+      "companyID": "cpny24133",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company134": {
+      "companyName": "TechNex Corporation",
+      "companyID": "cpny24134",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company135": {
+      "companyName": "DataWave Innovations",
+      "companyID": "cpny24135",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company136": {
+      "companyName": "AlphaTech Solutions",
+      "companyID": "cpny24136",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company137": {
+      "companyName": "MaxLink Systems",
+      "companyID": "cpny24137",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company138": {
+      "companyName": "Globex Innovations",
+      "companyID": "cpny24138",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company139": {
+      "companyName": "Digital Horizon Solutions",
+      "companyID": "cpny24139",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company140": {
+      "companyName": "ProTech Innovators",
+      "companyID": "cpny24140",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company141": {
+      "companyName": "Sunrise Technologies",
+      "companyID": "cpny24141",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company142": {
+      "companyName": "Innovate Solutions",
+      "companyID": "cpny24142",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company143": {
+      "companyName": "Vertex Industries",
+      "companyID": "cpny24143",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company144": {
+      "companyName": "TechNex Corporation",
+      "companyID": "cpny24144",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company145": {
+      "companyName": "DataWave Innovations",
+      "companyID": "cpny24145",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company146": {
+      "companyName": "AlphaTech Solutions",
+      "companyID": "cpny24146",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company147": {
+      "companyName": "MaxLink Systems",
+      "companyID": "cpny24147",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company148": {
+      "companyName": "Globex Innovations",
+      "companyID": "cpny24148",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company149": {
+      "companyName": "Digital Horizon Solutions",
+      "companyID": "cpny24149",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company150": {
+      "companyName": "ProTech Innovators",
+      "companyID": "cpny24150",
+      "type": "PVT",
+      "isVerified": true,
+      "rating": 5
+    },
+    "company201": {
+      "companyName": "Fictitious Innovations",
+      "companyID": "cpny25201",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company202": {
+      "companyName": "Phantom Solutions",
+      "companyID": "cpny25202",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company203": {
+      "companyName": "Imaginary Tech",
+      "companyID": "cpny25203",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company204": {
+      "companyName": "Ghost Enterprises",
+      "companyID": "cpny25204",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company205": {
+      "companyName": "Specter Innovations",
+      "companyID": "cpny25205",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company206": {
+      "companyName": "Apparition Tech",
+      "companyID": "cpny25206",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company207": {
+      "companyName": "Illusion Systems",
+      "companyID": "cpny25207",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company208": {
+      "companyName": "Ethereal Solutions",
+      "companyID": "cpny25208",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company209": {
+      "companyName": "Mirage Innovations",
+      "companyID": "cpny25209",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company210": {
+      "companyName": "Fantasy Enterprises",
+      "companyID": "cpny25210",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company211": {
+      "companyName": "Whimsical Tech",
+      "companyID": "cpny25211",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company212": {
+      "companyName": "Delusion Systems",
+      "companyID": "cpny25212",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company213": {
+      "companyName": "Phantasm Innovations",
+      "companyID": "cpny25213",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company214": {
+      "companyName": "Virtual Enterprises",
+      "companyID": "cpny25214",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company215": {
+      "companyName": "Bogus Tech",
+      "companyID": "cpny25215",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company216": {
+      "companyName": "Nonexistent Systems",
+      "companyID": "cpny25216",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company217": {
+      "companyName": "Fake Innovations",
+      "companyID": "cpny25217",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company218": {
+      "companyName": "Fabricated Tech",
+      "companyID": "cpny25218",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company219": {
+      "companyName": "Deceptive Systems",
+      "companyID": "cpny25219",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    },
+    "company220": {
+      "companyName": "Counterfeit Innovations",
+      "companyID": "cpny25220",
+      "type": "NONE",
+      "isVerified": false,
+      "rating": 0
+    }
+  }
+}
